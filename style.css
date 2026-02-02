@@ -59,6 +59,8 @@ h1 {
 }
 #para{
     font-size: 20px;
+    color: white;
+    margin: 20px;
 }
 
 .maincontainer {
@@ -66,7 +68,7 @@ h1 {
   align-items: center;
   justify-content: center;
   background-color: grey;
-  width: 400px;
+  width: 500px;
   height: 300px;
   border: 2px white;
   border-radius: 40px;
@@ -76,6 +78,7 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  overflow: hidden;
   align-items: center;
 }
 button {
@@ -99,6 +102,25 @@ button:hover {
   width: 150px;
   cursor: pointer;
 }
-h3:hover {
-  font-size: 20px;
+.Resultcontainer{
+  margin-bottom: 30px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
 }
+#result:hover {
+  font-size: 20px;
+  color: yellow;
+}
+#result1:hover {
+  font-size: 20px;
+  color: aqua;
+}
+#result2:hover {
+  font-size: 20px;
+  color: orange;
+}
+
