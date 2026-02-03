@@ -19,11 +19,17 @@ if (bmi < 18.5) {
 } else if (bmi >= 18.5 && bmi <= 24.9) {
    document.getElementById("result1").innerHTML =
      ` You are Normal - Healthy`;
+       document.getElementById("result2").innerHTML =
+         `Tips: Maintain a balanced diet, exercise regularly, stay hydrated, and get enough sleep. `;
 } else if (bmi >= 25 && bmi <= 29.9) {
     document.getElementById("result1").innerHTML =
       `You are Overweight`;
+      document.getElementById("result2").innerHTML =
+        `Tips: Reduce junk food, exercise daily, control portion sizes, and stay active. `;
 } else {
    document.getElementById("result1").innerHTML = ` Obese`;
+   document.getElementById("result2").innerHTML =
+     ` Tips: Follow a healthy diet plan, do regular physical activity, avoid sugary foods, and consult a doctor.`;
 }
 
   }
